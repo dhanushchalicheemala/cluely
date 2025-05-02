@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanush Chalicheemala - AI Engineer & Content Creator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: 'Inter', sans-serif;
+            color: #1a202c;
+        }
+        .ai-gradient {
+            background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card {
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        .progress-bar {
+            height: 8px;
+            border-radius: 4px;
+            background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+        }
+        .skill-bubble {
+            border-radius: 20px;
+            padding: 6px 12px;
+            margin: 4px;
+            display: inline-block;
+            background: #e9ecef;
+            font-size: 0.85rem;
+            transition: all 0.2s ease;
+        }
+        .skill-bubble:hover {
+            background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+            color: white;
+            transform: scale(1.05);
+        }
+        .timeline-item {
+            border-left: 2px solid #8E54E9;
+            padding-left: 20px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .timeline-item:before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #8E54E9;
+            position: absolute;
+            left: -7px;
+            top: 5px;
+        }
+        .project-card {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .emoji-bullet {
+            margin-right: 8px;
+            font-size: 1.2em;
+        }
+        .terminal {
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            border-radius: 8px;
+            font-family: monospace;
+        }
+        .terminal-line {
+            display: block;
+            line-height: 1.5;
+        }
+        .terminal-prompt {
+            color: #4cd137;
+        }
+        .terminal-command {
+            color: #f0f0f0;
+        }
+        .terminal-output {
+            color: #9c88ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto px-4 py-12 max-w-5xl">
+        <!-- Header with AI-Style Title -->
+        <div class="bg-white rounded-xl shadow-lg p-8 mb-10">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div>
+                    <h1 class="text-4xl font-bold mb-2">Dhanush Chalicheemala</h1>
+                    <h2 class="text-2xl ai-gradient font-semibold">AI Engineer & Content Creator</h2>
+                    <p class="text-gray-600 mt-2">Status: Ready to engineer AI solutions & create viral content</p>
+                    <p class="text-gray-600">Currently: Creating the best X personal brand account</p>
+                </div>
+                <div class="mt-6 md:mt-0 text-right">
+                    <div class="terminal p-4 text-left">
+                        <span class="terminal-line"><span class="terminal-prompt">$</span> <span class="terminal-command">ping dhanush</span></span>
+                        <span class="terminal-line terminal-output">→ chalicheemala.dhanush@gmail.com</span>
+                        <span class="terminal-line terminal-output">→ Los Angeles, CA</span>
+                        <span class="terminal-line terminal-output">→ Willing to relocate to SF</span>
+                        <span class="terminal-line terminal-output">→ <a href="https://x.com/dhanush_chali" target="_blank" class="text-blue-500 hover:underline">x.com/dhanush_chali</a></span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-8">
+                <div class="inline-block bg-yellow-100 border-l-4 border-yellow-500 p-4 rounded">
+                    <p class="font-bold">WARNING:</p>
+                    <p>Hiring this engineer may result in excessive innovation, AI maximalism, and content that people can't stop watching. You've been warned.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Digital Renaissance Toolkit -->
+        <div class="bg-white rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-2xl font-bold mb-6"><i class="fas fa-robot mr-2 text-purple-600"></i>Digital Renaissance Toolkit</h2>
+            
+            <div class="prose lg:prose-xl">
+                <p class="mb-4">Dear Cluely (my future AI overlords),</p>
+                
+                <p class="mb-4">I believe if a task CAN be AI-powered, it SHOULD be AI-powered. I don't just use AI tools; I engineer them to solve problems no one else is solving.</p>
+                
+                <p class="mb-4">I both build the technical systems AND create the content that makes those systems go viral. It's a rare combination, but then again, so is Cluely's mission.</p>
+            </div>
+        </div>
+        
+        <!-- Technical Qualifications -->
+        <div class="bg-white rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-2xl font-bold mb-6"><i class="fas fa-microchip mr-2 text-purple-600"></i>Technical Qualifications</h2>
+            
+            <!-- CEO Of Section -->
+            <h3 class="text-xl font-semibold mb-3">CEO of</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div class="timeline-item">
+                    <p class="font-semibold">resumeoptimizer.tech</p>
+                    <p class="text-gray-700">Built AI-powered resume optimization platform that helps job seekers get more interviews</p>
+                    <div class="mt-2 flex flex-wrap">
+                        <span class="skill-bubble">AI Resume Analysis</span>
+                        <span class="skill-bubble">Job Market AI</span>
+                        <span class="skill-bubble">Career Tech</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <p class="font-semibold">funnyface.ai</p>
+                    <p class="text-gray-700">Created viral AI-powered face transformation platform with over 500K users</p>
+                    <div class="mt-2 flex flex-wrap">
+                        <span class="skill-bubble">Computer Vision</span>
+                        <span class="skill-bubble">Generative AI</span>
+                        <span class="skill-bubble">Viral Growth</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-3">Education</h3>
+                    <div class="timeline-item">
+                        <p class="font-semibold">University of California, Riverside</p>
+                        <p class="text-gray-700">Master's, Computational Data Science (GPA: 3.8)</p>
+                        <p class="text-gray-600 text-sm">September 2024 - Present</p>
+                        <div class="mt-2 flex flex-wrap">
+                            <span class="skill-bubble">Neural Networks</span>
+                            <span class="skill-bubble">Computer Vision</span>
+                            <span class="skill-bubble">NLP</span>
+                            <span class="skill-bubble">Distributed Computing</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <p class="font-semibold">Vellore Institute of Technology</p>
+                        <p class="text-gray-700">Bachelor of Technology, Information Technology (GPA: 8.43)</p>
+                        <p class="text-gray-600 text-sm">July 2020 - May 2024</p>
+                        <div class="mt-2 flex flex-wrap">
+                            <span class="skill-bubble">Data Structures</span>
+                            <span class="skill-bubble">Algorithms</span>
+                            <span class="skill-bubble">Database Systems</span>
+                            <span class="skill-bubble">ML Fundamentals</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-3">Technical Skills (Cursor and Windsurf)</h3>
+                    
+                    <div class="mb-4">
+                        <div class="flex justify-between mb-1">
+                            <span>Machine Learning & AI (ChatGPT)</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="progress-bar" style="width: 95%"></div>
+                        </div>
+                        <div class="mt-2 flex flex-wrap">
+                            <span class="skill-bubble">PyTorch</span>
+                            <span class="skill-bubble">TensorFlow</span>
+                            <span class="skill-bubble">Scikit-learn</span>
+                            <span class="skill-bubble">Hugging Face</span>
+                            <span class="skill-bubble">LangChain</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <div class="flex justify-between mb-1">
+                            <span>Software Engineering</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="progress-bar" style="width: 92%"></div>
+                        </div>
+                        <div class="mt-2 flex flex-wrap">
+                            <span class="skill-bubble">Python</span>
+                            <span class="skill-bubble">JavaScript</span>
+                            <span class="skill-bubble">React</span>
+                            <span class="skill-bubble">Node.js</span>
+                            <span class="skill-bubble">FastAPI</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <div class="flex justify-between mb-1">
+                            <span>Data Engineering & Cloud (Just added for fun)</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                        <div class="mt-2 flex flex-wrap">
+                            <span class="skill-bubble">AWS</span>
+                            <span class="skill-bubble">GCP</span>
+                            <span class="skill-bubble">Docker</span>
+                            <span class="skill-bubble">Kubernetes</span>
+                            <span class="skill-bubble">SQL/NoSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="text-xl font-semibold mb-3">Published Research (Don't ask me)</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="card p-5 bg-gradient-to-r from-gray-50 to-gray-100">
+                    <p class="font-bold"><span class="emoji-bullet">📊</span>Sentiment Analysis of COVID-19 Twitter Data</p>
+                    <p class="text-sm text-gray-600">IEEE International Conference on Data Mining, 2023</p>
+                </div>
+                <div class="card p-5 bg-gradient-to-r from-gray-50 to-gray-100">
+                    <p class="font-bold"><span class="emoji-bullet">🧠</span>Optimizing Transformer Models for Edge Devices</p>
+                    <p class="text-sm text-gray-600">ACM Conference on Embedded Systems, 2023</p>
+                </div>
+                <div class="card p-5 bg-gradient-to-r from-gray-50 to-gray-100">
+                    <p class="font-bold"><span class="emoji-bullet">🏥</span>AI-Driven Diagnosis of Retinal Diseases</p>
+                    <p class="text-sm text-gray-600">Journal of Medical Imaging, 2022</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- My AI Arsenal -->
+        <div class="bg-white rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-2xl font-bold mb-6"><i class="fas fa-robot mr-2 text-purple-600"></i>My AI Arsenal (Tools of Mass Creation)</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                <div class="card p-4 bg-blue-50">
+                    <h3 class="font-bold mb-2">LLM Wizardry</h3>
+                    <div class="skill-bubble">GPT-4</div>
+                    <div class="skill-bubble">Claude 3</div>
+                    <div class="skill-bubble">Llama 3</div>
+                    <div class="skill-bubble">Mistral</div>
+                    <div class="skill-bubble">HuggingFace</div>
+                    <div class="skill-bubble">Fine-tuning</div>
+                    <div class="skill-bubble">LangChain</div>
+                </div>
+                
+                <div class="card p-4 bg-green-50">
+                    <h3 class="font-bold mb-2">Vision & Multimodal</h3>
+                    <div class="skill-bubble">Midjourney</div>
+                    <div class="skill-bubble">DALL-E 3</div>
+                    <div class="skill-bubble">Stable Diffusion</div>
+                    <div class="skill-bubble">GPT-4V</div>
+                    <div class="skill-bubble">Gemini Pro</div>
+                    <div class="skill-bubble">Sora</div>
+                    <div class="skill-bubble">Runway</div>
+                </div>
+                
+                <div class="card p-4 bg-purple-50">
+                    <h3 class="font-bold mb-2">Traditional ML/DL</h3>
+                    <div class="skill-bubble">TensorFlow</div>
+                    <div class="skill-bubble">PyTorch</div>
+                    <div class="skill-bubble">Keras</div>
+                    <div class="skill-bubble">CNN/RNN/LSTM</div>
+                    <div class="skill-bubble">U-Net/Mask R-CNN</div>
+                    <div class="skill-bubble">SMOTE</div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="card p-4 bg-indigo-50">
+                    <h3 class="font-bold mb-2">Vibe Coding</h3>
+                    <div class="skill-bubble">Frontend Flair</div>
+                    <div class="skill-bubble">Backend Brilliance</div>
+                    <div class="skill-bubble">API Artistry</div>
+                    <div class="skill-bubble">UI/UX Harmony</div>
+                    <div class="skill-bubble">AI-Assisted Dev</div>
+                    <div class="skill-bubble">Aesthetic Architecture</div>
+                </div>
+                
+                <div class="card p-4 bg-yellow-50">
+                    <h3 class="font-bold mb-2">Vibe Marketing</h3>
+                    <div class="skill-bubble">TikTok</div>
+                    <div class="skill-bubble">Instagram</div>
+                    <div class="skill-bubble">Twitter/X</div>
+                    <div class="skill-bubble">Content Calendars</div>
+                    <div class="skill-bubble">Analytics</div>
+                    <div class="skill-bubble">Growth Hacking</div>
+                </div>
+                
+                <div class="card p-4 bg-pink-50">
+                    <h3 class="font-bold mb-2">AI UGC Video</h3>
+                    <div class="skill-bubble">Final Cut Pro</div>
+                    <div class="skill-bubble">CapCut</div>
+                    <div class="skill-bubble">Runway Gen-2</div>
+                    <div class="skill-bubble">HeyGen</div>
+                    <div class="skill-bubble">D-ID</div>
+                    <div class="skill-bubble">ElevenLabs</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Cool Stuff I've Done (But Not in a Traditional Way) -->
+        <div class="bg-white rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-2xl font-bold mb-6"><i class="fas fa-rocket mr-2 text-purple-600"></i>Cool Stuff I've Done (Definitely Not "Experience")</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="project-card overflow-hidden">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2">AI-Powered F1 Race Prediction System</h3>
+                        <p class="text-gray-600 mb-3">Built an ML model that predicts F1 race outcomes with 83% accuracy by analyzing historical data, weather conditions, and driver performance metrics.</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-bubble">PyTorch</span>
+                            <span class="skill-bubble">Time Series</span>
+                            <span class="skill-bubble">Feature Engineering</span>
+                            <span class="skill-bubble">Sports Analytics</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card overflow-hidden">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2">Retinal Disease Diagnosis AI</h3>
+                        <p class="text-gray-600 mb-3">Developed a computer vision system that detects early signs of retinal diseases from fundus images with 91% accuracy, potentially saving thousands from vision loss.</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-bubble">CNN</span>
+                            <span class="skill-bubble">Medical Imaging</span>
+                            <span class="skill-bubble">Transfer Learning</span>
+                            <span class="skill-bubble">Healthcare AI</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card overflow-hidden">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2">Viral AI Education Content</h3>
+                        <p class="text-gray-600 mb-3">Created a series of TikTok videos explaining complex AI concepts using memes and pop culture references, reaching over 2M views and 500K engagements.</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-bubble">Content Creation</span>
+                            <span class="skill-bubble">Technical Communication</span>
+                            <span class="skill-bubble">Viral Growth</span>
+                            <span class="skill-bubble">AI Education</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card overflow-hidden">
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold mb-2">Autonomous Drone Navigation System</h3>
+                        <p class="text-gray-600 mb-3">Built a real-time object detection and navigation system for drones using computer vision and reinforcement learning, enabling autonomous flight in complex environments.</p>
+                        <div class="flex flex-wrap">
+                            <span class="skill-bubble">Computer Vision</span>
+                            <span class="skill-bubble">YOLO</span>
+                            <span class="skill-bubble">Reinforcement Learning</span>
+                            <span class="skill-bubble">Embedded Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Content Creation & Growth Skills -->
+        <div class="bg-white rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-2xl font-bold mb-6"><i class="fas fa-film mr-2 text-purple-600"></i>Content Creation & Growth Skills</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-3">Content Creation Arsenal</h3>
+                    
+                    <div class="mb-4">
+                        <div class="flex justify-between mb-1">
+                            <span>AI Content Generation</span>
+                            <span>94%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="progress-bar" style="width: 94%"></div>
+                        </div>
+                        <div class="mt-2 flex flex-wrap">
+                            <span class="skill-bubble">GPT-4</span>
+                            <span class="skill-bubble">Claude 3</span>
+                            <span class="skill-bubble">Genspark</span>
+                            <span class="skill-bubble">Prompt Engineering</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <div class="flex justify-between mb-1">
+                            <span>Visual & Video Content</span>
+                            <span>91%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="progress-bar" style="width: 91%"></div>
+                        </div>
+                        <div class="mt-2 flex flex-wrap">
+                            <span class="skill-bubble">Midjourney</span>
+                            <span class="skill-bubble">DALL-E 3</span>
+                            <span class="skill-bubble">Stable Diffusion</span>
+                            <span class="skill-bubble">Premiere Pro</span>
+                            <span class="skill-bubble">After Effects</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col items-center justify-center">
+                    <div class="rounded-lg overflow-hidden shadow-lg mb-4">
+                        <img src="0a4c20dd-ccff-482e-9b3e-b3b76af9e472_wm.jpeg" alt="AI Content Creation" class="w-full h-auto">
+                    </div>
+                    <div class="text-center">
+                        <p class="font-bold text-lg mb-2">My AI Content Creation Process</p>
+                        <p class="text-gray-600">Combining technical expertise with creative vision to produce viral-worthy content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Why I'm Perfect for Cluely -->
+        <div class="bg-white rounded-xl shadow-lg p-8 mb-10">
+            <h2 class="text-2xl font-bold mb-6"><i class="fas fa-bullseye mr-2 text-purple-600"></i>Why I'm Perfect for Cluely</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Technical Excellence</h3>
+                    
+                    <div class="mb-4 flex items-start">
+                        <div class="text-2xl mr-3">🧪</div>
+                        <div>
+                            <p class="font-bold">I've been using AI tools before they were cool</p>
+                            <p class="text-gray-600">I was fine-tuning models while others were still figuring out how to spell "GPT"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4 flex items-start">
+                        <div class="text-2xl mr-3">⚡</div>
+                        <div>
+                            <p class="font-bold">Rapid Prototyping Machine</p>
+                            <p class="text-gray-600">While others are planning, I've already built three working prototypes and am analyzing the results</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4 flex items-start">
+                        <div class="text-2xl mr-3">🔍</div>
+                        <div>
+                            <p class="font-bold">Data-Obsessed Engineer</p>
+                            <p class="text-gray-600">I chase performance improvements with relentless dedication, often staying up until 3am to optimize models</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">The Cluely Culture Fit</h3>
+                    
+                    <div class="mb-4 flex items-start">
+                        <div class="text-2xl mr-3">🔥</div>
+                        <div>
+                            <p class="font-bold">Hyper-Competitive Engineer</p>
+                            <p class="text-gray-600">I once optimized 173 variations of a model just to beat a benchmark by 1.2% - I don't quit until I win</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4 flex items-start">
+                        <div class="text-2xl mr-3">🎮</div>
+                        <div>
+                            <p class="font-bold">Technical Content Creator</p>
+                            <p class="text-gray-600">My technical explanations of machine learning using only memes went viral in 3 countries</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4 flex items-start">
+                        <div class="text-2xl mr-3">🧪</div>
+                        <div>
+                            <p class="font-bold">Chaos-Tolerant Builder</p>
+                            <p class="text-gray-600">I thrive in unstructured environments - ambiguity is just another word for "freedom to innovate"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Final Pitch -->
+        <div class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-xl shadow-lg p-8">
+            <h2 class="text-2xl font-bold mb-4">The Final Pitch</h2>
+            
+            <p class="text-lg mb-6">If you're looking for a technical engineer who can build AI systems that drive growth, create engaging content about complex concepts, and thrive in your "unregulated, hyper-competitive environment" (which sounds both terrifying and exactly what I want), then congratulations - your search is over!</p>
+            
+            <div class="bg-white bg-opacity-20 rounded-lg p-5">
+                <p class="font-bold italic text-lg">"I promise to engineer AI systems in ways that make people say 'How is that even possible?' while being just legal enough to avoid prison time. Also, I'll make your competitors cry and your investors cheer."</p>
+            </div>
+            
+            <div class="mt-8 text-center">
+                <p class="text-lg font-bold">chalicheemala.dhanush@gmail.com | +1 9514629630</p>
+                <p class="text-lg">Los Angeles, CA (Willing to relocate to SF)</p>
+                <p class="text-lg">Follow me on X: <a href="https://x.com/dhanush_chali" target="_blank" class="text-blue-500 hover:underline">x.com/dhanush_chali</a></p>
+                <p class="text-sm mt-2">This human will self-destruct if not hired within 30 days. (Just kidding, but seriously, hire me)</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
